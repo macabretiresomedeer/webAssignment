@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+        <link rel="stylesheet" href="main design.css">
+        <link rel="stylesheet" href="checkout.css">
+        <head>
+            <title>
+                sexy tech store
+            </title>
+        </head>
+        <body>
+            <center>
+                <h1>CHECKOUT</h1>
+                <fieldset>
+                    <div class="cart">
+                            <legend class="best">Your Cart</legend>
+                            <div id="incart" style="color: white;">
+                                <img src="empty.png">
+                            </div>
+                    </div>
+                    <br><br>
+                    <div id="total" style="color: white;">
+                        Total = RM 0
+                    </div>
+                    <div class="form">
+                        First Name:<br>
+                        <input type="text" id="fname" name="fname" size="30"><br><br>
+                        Last Name:<br>
+                        <input type="text" id="lname" name="lname" size="30"><br><br>
+                        Email:<br>
+                        <input type="text" id="email" name="email" size="40"><br><br>
+                        Address:<br>
+                        <input type="text" id="address" name="address" size="50"><br><br>
+                        Contact:<br>
+                        <input type="number" id="contact" name="contact"><br><br>
+                    </div>
+                    <input type="checkbox" id="TC"> 
+                    <label for="TC" class ="TC2"> I agree to the terms and condition.</label>
+                    <button class="checkout" onclick="clearCart()">CHECKOUT</button>
+                </fieldset>
+            </center>
+        </body>
+        <script src="checkout.js"></script>
+    </html>

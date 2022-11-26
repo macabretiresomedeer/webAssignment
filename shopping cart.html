@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html>
+        <link rel="stylesheet" href="main design.css">
+        <link rel="stylesheet" href="cart design.css">
+        <head>
+            <title>
+                sexy tech store
+            </title>
+        </head>
+        <body>
+            <center>
+                <div class="navigation">
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a class="active" href="shopping cart.html">Shopping Cart</a>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="main.html">Home</a></li>
+                        <div class="logo">Sexy Store</div>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <fieldset class="tester">
+                        <legend class="best">Your Cart</legend>
+                        <div id="incart" style="color: white;">
+                            <img src="empty.png">
+                        </div>
+                </div>
+                <br><br>
+                <div id="total" style="color: white;">
+                    Total = RM 0
+                </div>
+                <button class="clear_cart" onclick="clearCart()">Clear Cart</button>
+                <button class="checkout" onclick="checkCart()">CHECKOUT</button>
+            </center>
+        </body>
+        <script src="shopping cart.js"></script>
+    </html>

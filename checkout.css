@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Prompt&display=swap);
+.form{
+    float: left;
+}
+#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9{
+    margin-top: 2%;
+    font-size: xx-large;
+    display: block;
+    clear: left;
+    width: 100%;
+    padding-left: 2%;
+}
+.navigation ul{
+    border-radius: 25px;
+}
+
+a { 
+    text-decoration: none; 
+}
+#description{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.tester{
+    width: 80%;
+}
+.best{
+    font-size: xx-large;
+    font-family: Prompt;
+    color: #5f9ceb;
+}
+fieldset {
+    border-radius: 25px;
+    background-color: #2c2c2c;
+    width: 80%;
+    border: 1px solid #c3073f;
+}
+#incart{
+    padding-bottom: 3%;
+}
+#total{
+    font-family: Prompt;
+    color: #5f9ceb;
+    font-size: xx-large;
+}
+
+#description{
+    margin-top: -20%;
+    font-family: Prompt;
+    color: #c3073f;
+    font-size: xx-large;
+}
+.best1{
+    clear: left;
+    margin-right: 75%;
+    border-style: solid;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    text-align: left;
+    padding-left: 8%;
+    padding-top: 5%;
+    position: relative;
+    color: #c3073f;
+    font-size: large;
+    font-family: Prompt;
+}
+
+.checkout{
+    margin-top: 18%;
+    background-color: rgb(46, 209, 24);
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Prompt;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    width: 150px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.TC2{
+    font-family: Prompt;
+    color: #5f9ceb;
+    font-size: large;
+}
+h1{
+    font-family: Prompt;
+    color: #c3073f;
+}
+.Goback{
+    background-color: rgb(46, 209, 24);
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Prompt;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    width: 150px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.Goback:hover,
+.Goback:focus {
+  opacity: .75;
+}
