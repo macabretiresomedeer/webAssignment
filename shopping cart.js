@@ -57,20 +57,7 @@ let products = [
     }
 
 ]
-if (document.URL.includes("")){
-    for (let i = 0; i < carts.length; i++) {
-        carts[i].addEventListener('click',() =>{
-            cartNum(products[i]);
-            total(products[i]);
-            notification();
-            localStorage.setItem([i], products[i].name);
-            localStorage.setItem("q" + [i], localStorage.getItem("q" + [i]) + 1);
-            localStorage.setItem("img" + [i], products[i].imgID);
-        })
-    }
-}
-
-if (document.URL.includes("shop.html")){
+if (document.URL.indexOf("product") <= -1){
     for (let i = 0; i < carts.length; i++) {
         carts[i].addEventListener('click',() =>{
             cartNum(products[i]);
