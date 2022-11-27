@@ -57,6 +57,7 @@ let products = [
     }
 
 ]
+
 if (document.URL.indexOf("product") <= -1){
     for (let i = 0; i < carts.length; i++) {
         carts[i].addEventListener('click',() =>{

@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Prompt&display=swap);
+html, body {
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+#form{
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    position: relative;
+    color: #c3073f;
+    font-size: large;
+    font-family: Prompt;
+}
+h1{
+    font-family: Prompt;
+    color: #c3073f;
+}
+#home{
+    background-color: rgb(46, 209, 24);
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Prompt;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    width: 150px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.Goback:hover,
+.Goback:focus {
+  opacity: .75;
+}
+fieldset {
+    border-radius: 25px;
+    background-color: #2c2c2c;
+    width: 600px;
+    border: 1px solid #c3073f;
+}
