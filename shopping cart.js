@@ -57,7 +57,7 @@ let products = [
     }
 
 ]
-if (document.URL.includes("main.html")){
+if (document.URL.includes("index.html")){
     for (let i = 0; i < carts.length; i++) {
         carts[i].addEventListener('click',() =>{
             cartNum(products[i]);
