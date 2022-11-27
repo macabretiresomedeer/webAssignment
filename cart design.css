@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Prompt&display=swap);
 #item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     margin-top: 2%;
     font-size: xx-large;
     display: block;
@@ -17,9 +20,6 @@ a {
 #description{
     padding-top: 5%;
     padding-bottom: 3%;
-}
-.tester{
-    width: 80%;
 }
 .best{
     font-size: xx-large;
@@ -112,10 +112,11 @@ fieldset {
 }
 
 .delete{
+    position: relative;
+    margin-top: -220px;
+    margin-right: 50px;
     border-radius: 5px;
     float: right;
-    margin-top: -15%;
-    margin-right: 5%;
     width: 50px;
     height: 300px;
     background-color: rgb(209, 24, 24);
@@ -127,7 +128,6 @@ fieldset {
     margin-left: 10px;
     display: inline-flex;
     align-items: center;
-    Position:relative;
     background-color: rgb(46, 209, 24);
     font-family: Prompt;
     font-size: xx-large;
@@ -140,7 +140,6 @@ fieldset {
     margin-left: 120px;
     display: inline-flex;
     align-items: center;
-    Position:relative;
     background-color: rgb(209, 98, 24);
     font-family: Prompt;
     font-size: xx-large;
