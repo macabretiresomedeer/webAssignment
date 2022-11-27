@@ -71,12 +71,18 @@ function total(product){
 }
 
 function clearCart(){
-    var username = localStorage.getItem('username');
-    localStorage.clear();
-    localStorage.setItem('username',username);
-    document.getElementById("incart").innerHTML = "<img src=\"empty.png\">";
-    document.getElementById("total").innerHTML = "Total = RM 0";
-    window.location.href = "checkout1.html";
+    var box = document.getElementById('TC');
+    if (box.checked == true){
+        var username = localStorage.getItem('username');
+        localStorage.clear();
+        localStorage.setItem('username',username);
+        document.getElementById("incart").innerHTML = "<img src=\"empty.png\">";
+        document.getElementById("total").innerHTML = "Total = RM 0";
+        window.location.href = "checkout1.html";
+    }
+    else{
+        alert("PLS AGREE TO THE TERMS AND CONDITION");
+    }
 }
 
 window.onload = updateTotal;
