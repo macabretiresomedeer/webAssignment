@@ -4,12 +4,6 @@
        zoom: 73%
     }
 }
-
-@media screen and (width: 1920px) and (height: 1080px) {
-    html {  
-       zoom: 70%
-    }
-}
 @media screen and (width: 2560px) and (height: 1440px) {
     html {  
        zoom: 150%
