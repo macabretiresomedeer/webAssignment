@@ -27,8 +27,6 @@ fieldset {
     color: #5f9ceb;
 }
 #submit{
-    left : -6%;
-    top: -80px;
     background-color: rgb(46, 209, 24);
     border-radius: 4px;
     border-style: none;
