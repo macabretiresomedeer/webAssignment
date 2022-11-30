@@ -23,19 +23,21 @@
                         Total = RM 0
                     </div>
                     <div class="form">
-                        First Name:<br>
-                        <input type="text" id="fname" name="fname" size="30" required><br><br>
-                        Last Name:<br>
-                        <input type="text" id="lname" name="lname" size="30" required><br><br>
-                        Email:<br>
-                        <input type="text" id="email" name="email" size="40" required><br><br>
-                        Address:<br>
-                        <input type="text" id="address" name="address" size="50" required><br><br>
-                        Contact:<br>
-                        <input type="number" id="contact" name="contact" required><br><br>
+                        <table>
+                            <tr><td>First Name: </td></tr>
+                            <tr><td><input type="text" id="fname" name="fname" size="30" required></td></tr>
+                            <tr><td>Last Name: </td></tr>
+                            <tr><td><input type="text" id="lname" name="lname" size="30" required></td></tr>
+                            <tr><td>Email:</td></tr>
+                            <tr><td><input type="email" id="email" name="email" size="40" required></td></tr>
+                            <tr><td>Address</td></tr>
+                            <tr><td><input type="text" id="address" name="address" size="50" required></td></tr>
+                            <tr><td>Contact:</td></tr>
+                            <tr><td><input type="number" id="contact" name="contact" required></td></tr>
+                        </table>
                     </div>
                     <input type="checkbox" id="TC"> 
-                    <label for="TC" id ="TC2"> I agree to the terms and condition.</label>
+                    <label for="TC" id ="TC2"> <a href="https://www.termsandconditionsgenerator.com/live.php?token=jbnWFZcNkEDHcBOCVTXkiuBcePUmOtwS">I agree to the terms and condition.</a></label>
                     <button class="checkout" onclick="clearCart()">CHECKOUT</button>
                 </fieldset>
             </center>
