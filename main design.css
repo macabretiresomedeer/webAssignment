@@ -15,6 +15,10 @@
        zoom: 150%
     }
 }
+
+.logoPic{
+    width: 30px;
+}
 body{ 
     position:inherit;
     height: 100%;

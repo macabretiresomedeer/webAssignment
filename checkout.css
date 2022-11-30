@@ -95,7 +95,7 @@ fieldset {
     touch-action: manipulation;
 }
 
-.TC2{
+#TC2{
     font-family: Prompt;
     color: #5f9ceb;
     font-size: large;

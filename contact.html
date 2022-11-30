@@ -7,6 +7,7 @@
             <title>
                 sexy tech store
             </title>
+            <link rel="shortcut icon" href="logo.png">
         </head>
         <body>
             <center>
@@ -17,7 +18,7 @@
                         <li><a href="shopping cart.html">Shopping Cart</a>
                         <li><a href="shop.html">Shop</a></li>
                         <li><a href="index.html">Home</a></li>
-                        <div class="logo">Sexy Store</div>
+                        <div class="logo"><img src="logo.png" class="logoPic"> Sexy Store</div>
                     </ul>
                 </div>
                 <div id="submitted">
@@ -30,17 +31,19 @@
                 <div class = "contact_wrapper">
                     <fieldset>
                         <h1 id = "title">CONTACT US</h1>
-                        <div class="form">
-                            First Name:<br>
-                            <input type="text" id="fname" name="fname"e><br><br>
-                            Last Name:<br>
-                            <input type="text" id="lname" name="lname"><br><br>
-                            Email:<br>
-                            <input type="text" id="email" name="email"><br><br>
-                            Contact:<br>
-                            <input type="number" id="contact" name="contact"><br><br>
-                            <input type="submit" id="submit"value="Submit" onclick="submitted()">
-                        </div>
+                        <form id = "myform" onsubmit="submitted()">
+                            <div class="form">
+                                First Name:<br>
+                                <input type="text" id="fname" name="fname" required><br><br>
+                                Last Name:<br>
+                                <input type="text" id="lname" name="lname" required><br><br>
+                                Email:<br>
+                                <input type="email" id="email" name="email" required><br><br>
+                                Contact:<br>
+                                <input type="number" id="contact" name="contact" required><br><br>
+                                <input type="submit" id="submit" value="Submit">
+                            </div>
+                        </form>
                         <img class = "help" src="help.png">
                     </fieldset>
                 </div>
