@@ -1,7 +1,4 @@
 function submitted(){
-    var form = document.getElementById("myForm");
-    function handleForm(event) { event.preventDefault(); } 
-    form.addEventListener('submit', handleForm);
     document.getElementById('email').value = '';
     document.getElementById('fname').value = '';
     document.getElementById('lname').value = '';
