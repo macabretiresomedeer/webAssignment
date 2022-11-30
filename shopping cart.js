@@ -149,6 +149,7 @@ function total(product){
 
 function clearCart(){
     localStorage.clear();
+    localStorage.setItem("totalPrice", 0);
     document.getElementById("incart").innerHTML = "<img src=\"empty.png\">";
     document.getElementById("total").innerHTML = "Total = RM 0";
 }
