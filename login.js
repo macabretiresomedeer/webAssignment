@@ -18,10 +18,11 @@ function login(){
 window.onload = logged;
 function logged(){
     if(localStorage.getItem("username") != ""){
+        console.log("pebnis");
         document.getElementById("inner").innerHTML = "<div style=\"text-align:center;\"> LOGGED IN AS " + localStorage.getItem("username") +"</div><br>";
         document.getElementById("buttonLOG").innerHTML = "LOG OUT";
     }
-    if(localStorage.getItem("username") != "null"){
+    if(localStorage.getItem("username") == "null" || localStorage.getItem("username") == ""){
         document.getElementById("inner").innerHTML = "<div style=\"left = 18%;\"> Username:<br>" +
         "<input type=\"text\" id=\"fname\" name=\"fname\" size=\"80\"><br><br>" +
         "Password:<br>" +
