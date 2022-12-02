@@ -31,6 +31,7 @@ fieldset {
 }
 
 .item1{
+    list-style-type: none;
     background-color: #4e4e50;
     margin-left: 55px;
     float: left;
@@ -41,6 +42,8 @@ fieldset {
 }
 
 .best1{
+    position: relative;
+    left: 50px;
     border-style: solid;
     margin-top: 20px;
     width: 300px;
@@ -65,6 +68,7 @@ fieldset {
     transition: 0.5s ease;
 }
 .item2{
+    list-style-type: none;
     background-color: #4e4e50;
     width: 400px;
     height: 500px;
@@ -72,6 +76,8 @@ fieldset {
     border-color: #6f2232;
 }
 .best2{
+    position: relative;
+    left: 50px;
     border-style: solid;
     margin-top: 20px;
     width: 300px;
@@ -90,6 +96,8 @@ fieldset {
     transition: 0.5s ease;
 }
 .item3{
+    
+    list-style-type: none;
     background-color: #4e4e50;
     margin-right: 55px;
     float: right;
@@ -99,6 +107,8 @@ fieldset {
     border-color: #6f2232;
 }
 .best3{
+    position: relative;
+    left: 50px;
     border-style: solid;
     margin-top: 20px;
     width: 300px;
@@ -158,4 +168,7 @@ h2, h3{
     margin-top: -5px;
     width: 50px;
     height: 50px
+}
+td{
+    text-align: center;
 }

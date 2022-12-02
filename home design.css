@@ -62,6 +62,8 @@ fieldset {
 }
 
 .best1{
+    position: relative;
+    left: 50px;
     border-style: solid;
     background-image: url("logitech.jpg");
     margin-top: 20px;
@@ -98,6 +100,8 @@ a {
     border-color: #6f2232;
 }
 .best2{
+    position: relative;
+    left: 50px;
     border-style: solid;
     background-image: url("razer.jpg");
     margin-top: 20px;
@@ -126,6 +130,8 @@ a {
     border-color: #6f2232;
 }
 .best3{
+    position: relative;
+    left: 50px;
     border-style: solid;
     background-image: url("steelseries.jpg");
     margin-top: 20px;
@@ -184,4 +190,7 @@ h2, h3{
 
 #added.fade{
     transition: 2s;
+}
+td{
+    text-align: center;
 }
